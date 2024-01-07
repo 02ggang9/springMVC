@@ -10,6 +10,6 @@ import java.util.Map;
 
 public interface ControllerV3 {
 
-    ModelView process(Map<String, Object> paramMap);
+    ModelView process(Map<String, String> paramMap);
 
 }
